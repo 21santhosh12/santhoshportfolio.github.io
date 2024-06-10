@@ -1,134 +1,61 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Santhosh Kumar K - Portfolio</title>
+    <title>Santhosh Portfolio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-xyz" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #333;
+        /* Update background color for the "Personal Projects" section */
+        #main section:nth-child(odd) {
+            background-color: #000; /* Change to your preferred color */
+            color: #fff; /* Change text color to white */
         }
-        #wrapper {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
+
+        /* Update background color for the "Personal Projects" section */
+        #main section:nth-child(even) {
+            background-color: #fff; /* Change to your preferred color */
+            color: #000; /* Change text color to black */
         }
-        #intro {
-            text-align: center;
-            padding: 50px 20px;
-            background: #f4f4f4;
-            border-radius: 10px;
-        }
-        #intro h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-        #intro p {
-            font-size: 1.2em;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background: #007bff;
-            color: #fff;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-        #header .logo {
-            font-size: 1.5em;
-            color: #007bff;
-            text-decoration: none;
-        }
-        #nav {
-            margin-top: 20px;
-            text-align: center;
-        }
-        #nav .links {
-            list-style: none;
-            padding: 0;
-        }
-        #nav .links li {
-            display: inline;
-            margin: 0 10px;
-        }
-        #nav .links a {
-            text-decoration: none;
-            color: #007bff;
-        }
-        #nav .icons {
-            list-style: none;
-            padding: 0;
-            margin-top: 10px;
-        }
-        #nav .icons li {
-            display: inline;
-            margin: 0 5px;
-        }
-        #nav .icons a {
-            color: #007bff;
-            text-decoration: none;
-            font-size: 1.5em;
-        }
-        section {
-            margin-top: 50px;
-        }
-        section h2 {
-            font-size: 2em;
-            border-bottom: 2px solid #007bff;
-            padding-bottom: 10px;
-        }
-        section h3 {
-            margin-top: 30px;
-            font-size: 1.5em;
-        }
+
+        /* Style images in the project sections */
         .project-image {
-            max-width: 100px;
-            height: auto;
-            float: right;
-            margin: 0 0 20px 20px;
-            border-radius: 10px;
-        }
-        #footer {
-            margin-top: 50px;
-            background: #f4f4f4;
-            padding: 20px;
-            border-radius: 10px;
-        }
-        #footer h3 {
-            margin-bottom: 10px;
-            font-size: 1.2em;
-        }
-        #footer p {
-            margin-bottom: 10px;
-        }
-        #footer a {
-            color: #007bff;
-            text-decoration: none;
+            max-width: 10%; /* Adjust the image size */
+            height: auto; /* Maintain aspect ratio */
+            float: right; /* Float image to the right */
+            margin: 0 0 20px 20px; /* Add margin for spacing */
         }
     </style>
 </head>
-<body>
+<body class="is-preload">
 
-    <div id="wrapper">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
 
+        <!-- Intro -->
         <div id="intro">
             <h1>Hello Everyone!<br />
-            I am Santhosh Kumar K</h1>
+            I am Mohan Gaaneshan</h1>
             <p>A motivated individual with in-depth knowledge of languages and development tools, seeking a position in a growth-oriented company where I can use my skills to the advantage of the company while having the scope to develop my skills.</p>
-            <a href="#header" class="button">Continue</a>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
         </div>
 
+        <!-- Header -->
         <header id="header">
-            <a href="#top" class="logo">GO TO TOP</a>
+            <a href="index.html" class="logo">GO TO TOP</a>
         </header>
-
+        <div class=""bg-darl>
+        <!-- Nav -->
         <nav id="nav">
             <ul class="links">
-                <li class="active"><a href="#about">About Me</a></li>
+                <li class="active"><a href="index.html">About Me</a></li>
             </ul>
             <ul class="icons">
                 <li><a href="https://twitter.com/Santhosh8827" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -138,24 +65,23 @@
             </ul>
         </nav>
 
+        <!-- Main -->
         <div id="main">
-            <section id="about">
-                <h2>About Me</h2>
-                <p>My name is Santhosh Kumar K, and I am a motivated individual with a passion for technology and development. I have a solid foundation in various programming languages and development tools, and I am eager to leverage my skills in a dynamic and growth-oriented company.</p>
-            </section>
 
+            <!-- Education -->
             <section>
                 <h2>Education</h2>
                 <h3>B Tech</h3>
-                <p>SRM INSTITUTE OF SCIENCE AND TECHNOLOGY<br />09/2020 - 06/2024, CGPA: 7.99</p>
+                <p>SRM INSTITUTE OF SCIENCE AND TECHNOLOGY<br />09/2020 - 06/2024, CGPA:7.99</p>
 
                 <h3>12th</h3>
-                <p>BHARATHIYAR MATRICULATION HIGHER SECONDARY SCHOOL<br />06/2019 - 04/2020, CITY: CHENGALPATTU<br />Achieved 63.6% in 12th grade from Tamil Nadu State Board</p>
+                <p>BHARATHIYAR MATRICULATION HIGHER SECONDARY SCHOOL<br />06/2019 - 04/2020, CITY:CHENGALPATTU<br />Achieved 63.6% in 12th grade from Tamil Nadu State Board</p>
 
                 <h3>10th</h3>
-                <p>BHARATHIYAR MATRICULATION HIGHER SECONDARY SCHOOL<br />06/2017 - 04/2018, CITY: CHENGALPATTU<br />Achieved 72.4% in 10th grade from Tamil Nadu State Board</p>
+                <p>BHARATHIYAR MATRICULATION HIGHER SECONDARY SCHOOL<br />06/2017 - 04/2018, CITY:CHENGALPATTU<br />Achieved 72.4% in 10th grade from Tamil Nadu State Board</p>
             </section>
 
+            <!-- Personal Projects -->
             <section>
                 <h2>Personal Projects</h2>
                 <h3>NFT MARKET PLACE (06/2022 - 09/2022)</h3>
@@ -166,16 +92,18 @@
                 <img class="project-image" src="https://img.freepik.com/free-vector/infographic-design-about-people-population-inhabitants-statistics_23-2148154010.jpg?t=st=1713687186~exp=1713690786~hmac=2f3478c10cb738b0068a675cee75d353c6a83c85a4cdb5dad19dfe0da7031245&w=740" alt="Human Disease Prediction Image">
                 <p>Features and improving the accuracy of disease prediction models. The disease is predicted using algorithms and a comparison of the datasets with the symptoms provided by the user. Random forest machine-learning algorithm to predict the disease based on the systems.</p>
                 
-                <h3>HOSPITAL MANAGEMENT SYSTEM (03/2024 - 04/2024)</h3>
+                <h3>HOSPITAL MANAGEMENT SYSTEM(03/2024 - 04/2024)</h3>
                 <img class="project-image" src="https://img.freepik.com/free-vector/medical-equipment-isometric-composition-with-consumer-devices-gadgets-fitness-tracking-with-people_1284-26996.jpg?w=740&t=st=1713687276~exp=1713687876~hmac=fe0a8a5cbcfc9a2bd9779a97a47685281bf82a1bf4d0af4f1d6ec6aa9a46ed54" alt="Hospital Management System Image">
                 <p>The Hospital Management System is a web application developed using Python, Flask, and SQL database technologies. It serves as a comprehensive platform for managing various aspects of a hospital, focusing on patient appointments and doctor schedules.</p>
             </section>
 
+            <!-- Skills -->
             <section>
                 <h2>Skills</h2>
                 <p>Python, Java, Flask, SQL</p>
             </section>
 
+            <!-- Certificates -->
             <section>
                 <h2>Certificates</h2>
                 <p>PROBLEM SOLVING BASIC CERTIFIED BY HACKERRANK (03/2022 - 05/2022)<br />
@@ -184,6 +112,7 @@
                 SMART CONTRACTS CERTIFIED BY COURSERA (04/2023 - 07/2023)</p>
             </section>
 
+            <!-- Languages -->
             <section>
                 <h2>Languages</h2>
                 <p>English - Full Professional Proficiency<br />
@@ -191,6 +120,7 @@
                 Telugu - Elementary Proficiency</p>
             </section>
 
+            <!-- Interests -->
             <section>
                 <h2>Interests</h2>
                 <p>Machine Learning, Data Science, Blockchain, GenAI</p>
@@ -198,6 +128,7 @@
 
         </div>
 
+        <!-- Footer -->
         <footer id="footer">
             <section class="split contact">
                 <section class="alt">
@@ -216,6 +147,16 @@
         </footer>
 
     </div>
+</div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 </html>
